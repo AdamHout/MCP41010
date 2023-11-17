@@ -1,7 +1,9 @@
 /*
- * File:   main.c
- * Author: adam
+ * mcp41010 - Interface a PIC24F to a MCP41010 digipot via SPI
  *
+ * *****************************************************************************
+ * 05/23   Adam Hout        -Original source
+ * ****************************************************************************
  */
 
     // CONFIG2
@@ -53,7 +55,6 @@ int main(void) {
    resistance = calculateDigPot();
    
    writeDigPot(CMD_SHTDN, 0x00);                                                //Software shutdown - data byte ignored
-   
    
    while(1);                                                                    //Application logic would go here                                                              
 

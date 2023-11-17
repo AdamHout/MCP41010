@@ -1,5 +1,4 @@
 .elf
-Makefile
 build/
 disassembly/
 dist/

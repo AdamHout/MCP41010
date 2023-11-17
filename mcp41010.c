@@ -8,7 +8,6 @@
  * -Wiper is 52 ohms nominal
  * -Wiper defaults to 0x80 at power up
  * -Max current of 1ma when wiper value set to 0x00
- * -Supports SPI modes 0 and 1; Using mode 0
  * -Supports SCK up to 10MHz
  * -16 bit shift register
  * -Software shutdown
